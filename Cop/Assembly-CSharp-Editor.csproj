@@ -62,17 +62,16 @@
   <ItemGroup>
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\FoldoutGroupAttributeProcessor.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\TitleHeaderAttributeProcessor.cs" />
+    <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\PropertyOrderAttributeProcessor.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\OnValueChangedAttributeProcessor.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Experimental\TextFieldPopup.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\EnableIfAttributeProcessor.cs" />
-    <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\PropertyOrderAttributeProcessor.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\GroupAttributeProcessor.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Experimental\TreeMenu.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\EditorIcons.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\InspectorProperty\InspectorField.cs" />
-    <Compile Include="Assets\Import\Bolt 2D DinoRun VE1\ReadMe\Scripts\Editor\ReadmeEditorVE1.cs" />
-    <Compile Include="Assets\Import\Cainos\Pixel Art Platformer - Village Props\Script\Editor\ElevatorEditor.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\LucidEditor.cs" />
+    <Compile Include="Assets\Import\Cainos\Pixel Art Platformer - Village Props\Script\Editor\ElevatorEditor.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\HorizontalGroupAttributeProcessor.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Experimental\Toolbar.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\BoxGroupAttributeProcessor.cs" />
@@ -101,8 +100,8 @@
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\InspectorProperty\InspectorProperty.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\DisableInPlayModeAttributeProcessor.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\HelpBoxAttributeProcessor.cs" />
-    <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\HelpBoxIfAttributeProcessor.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\HideLabelAttributeProcessor.cs" />
+    <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\HelpBoxIfAttributeProcessor.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\EditorColors.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Utils\InspectorPropertyUtil.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Editor\Attributes\IndentAttributeProcessor.cs" />
@@ -1093,10 +1092,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
       <Private>False</Private>
@@ -1105,12 +1100,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
@@ -1119,6 +1114,10 @@
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
@@ -1177,16 +1176,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
