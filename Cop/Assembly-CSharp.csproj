@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\CameraController2D.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\AssetsOnlyAttribute.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HorizontalLineAttribute.cs" />
+    <Compile Include="Assets\Scripts\Player2Controller.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\TitleHeaderAttribute.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GUIColorAttribute.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideIfAttribute.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\PropertyGroupAttribute.cs" />
     <Compile Include="Assets\Scripts\Kill.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInPlayModeAttribute.cs" />
+    <Compile Include="Assets\Scripts\Elevator Trigger.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\IndentAttribute.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HelpBoxIfAttribute.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ValidateInputAttribute.cs" />
@@ -96,10 +98,10 @@
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ButtonAttribute.cs" />
     <Compile Include="Assets\Import\Cainos\Pixel Art Platformer - Village Props\Script\Chest.cs" />
     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
+    <Compile Include="Assets\Scripts\Win.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HorizontalGroupAttribute.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableIfAttribute.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ReadOnlyAttribute.cs" />
-    <Compile Include="Assets\Scripts\Player2.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\LabelWidthAttribute.cs" />
     <Compile Include="Assets\Import\Cainos\Pixel Art Platformer - Village Props\Script\MovingPlatform.cs" />
     <Compile Include="Assets\Import\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInEditModeAttribute.cs" />

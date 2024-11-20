@@ -5,12 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Goal
-  - Ball
-  - Gold
   - Chest
-  - StartLine
   - Target
   - Ground
+  - Player1
+  - Player2
+  - Apple
+  - Pumpkin
   layers:
   - Default
   - TransparentFX
